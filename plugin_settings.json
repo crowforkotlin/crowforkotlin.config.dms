@@ -1,0 +1,36 @@
+{
+  "obsRecorder": {
+    "enabled": true
+  },
+  "screenRecorder": {
+    "enabled": true,
+    "hideCursor": true,
+    "framerateIndex": 7,
+    "codecIndex": 0,
+    "qualityIndex": 2,
+    "formatIndex": 0,
+    "recordAudio": true,
+    "langIndex": 0,
+    "resolutionIndex": 0,
+    "savePathIndex": -1,
+    "customPath": "/home/crowf/Videos",
+    "customFps": "88"
+  },
+  "screenCapture": {
+    "enabled": true,
+    "langIndex": 1,
+    "hideCursor": false
+  },
+  "screenRecorderX": {
+    "enabled": true,
+    "hideCursor": true,
+    "recordAudio": true,
+    "codecIndex": 0,
+    "framerateIndex": 4,
+    "qualityIndex": 2
+  },
+  "calculator": {
+    "enabled": true,
+    "trigger": "="
+  }
+}

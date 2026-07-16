@@ -1,0 +1,9 @@
+[submodule "plugins/screenRecorderX"]
+	path = plugins/screenRecorderX
+	url = https://github.com/crowforkotlin/dms-screen-recorders
+[submodule "plugins/screenCapture"]
+	path = plugins/screenCapture
+	url = https://github.com/crowforkotlin/dms-screen-capture
+[submodule "plugins/calculator"]
+	path = plugins/calculator
+	url = https://github.com/rochacbruno/DankCalculator
