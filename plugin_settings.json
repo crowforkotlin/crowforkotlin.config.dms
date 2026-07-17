@@ -26,9 +26,13 @@
     "hideCursor": true,
     "recordAudio": true,
     "codecIndex": 0,
-    "framerateIndex": 4,
-    "qualityIndex": 2,
-    "langIndex": 1
+    "framerateIndex": -1,
+    "qualityIndex": 1,
+    "langIndex": 1,
+    "savePathIndex": -1,
+    "formatIndex": 1,
+    "customPath": "/home/crowf/Android",
+    "customFps": "60"
   },
   "calculator": {
     "enabled": true,
