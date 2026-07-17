@@ -27,7 +27,8 @@
     "recordAudio": true,
     "codecIndex": 0,
     "framerateIndex": 4,
-    "qualityIndex": 2
+    "qualityIndex": 2,
+    "langIndex": 1
   },
   "calculator": {
     "enabled": true,
