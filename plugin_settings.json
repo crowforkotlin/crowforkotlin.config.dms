@@ -26,13 +26,14 @@
     "hideCursor": true,
     "recordAudio": true,
     "codecIndex": 0,
-    "framerateIndex": -1,
-    "qualityIndex": 1,
+    "framerateIndex": 7,
+    "qualityIndex": 2,
     "langIndex": 0,
-    "savePathIndex": -1,
-    "formatIndex": 1,
-    "customPath": "/home/crowf/Android",
-    "customFps": "60"
+    "savePathIndex": 3,
+    "formatIndex": 0,
+    "customPath": "/home/crowf/develop/github/crowforkotlin.github.io-source/hexo-shell-script-loader",
+    "customFps": "60",
+    "resolutionIndex": 0
   },
   "calculator": {
     "enabled": true,
