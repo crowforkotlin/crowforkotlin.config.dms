@@ -18,8 +18,8 @@
   },
   "screenCapture": {
     "enabled": true,
-    "langIndex": 1,
-    "hideCursor": false
+    "langIndex": 0,
+    "hideCursor": true
   },
   "screenRecorderX": {
     "enabled": true,
@@ -38,5 +38,8 @@
   "calculator": {
     "enabled": true,
     "trigger": "="
+  },
+  "converter": {
+    "enabled": false
   }
 }

@@ -312,7 +312,7 @@
       "enabled": true
     }
   ],
-  "networkPreference": "wifi",
+  "networkPreference": "ethernet",
   "iconThemeDark": "System Default",
   "iconThemeLight": "System Default",
   "iconThemePerMode": false,
@@ -354,10 +354,10 @@
   "notepadShowLineNumbers": false,
   "notepadAutoSave": false,
   "notepadSlideoutSide": "right",
-  "notepadDefaultMode": "slideout",
+  "notepadDefaultMode": "popout",
   "notepadTransparencyOverride": -1,
-  "notepadLastCustomTransparency": 0.7,
-  "notepadUseCompositorGap": false,
+  "notepadLastCustomTransparency": 1,
+  "notepadUseCompositorGap": true,
   "notepadEdgeGap": 0,
   "soundsEnabled": true,
   "useSystemSoundTheme": false,
@@ -395,11 +395,6 @@
   "fadeToDpmsEnabled": true,
   "fadeToDpmsGracePeriod": 5,
   "launchPrefix": "",
-  "brightnessDevicePins": {},
-  "wifiNetworkPins": {},
-  "bluetoothDevicePins": {},
-  "audioInputDevicePins": {},
-  "audioOutputDevicePins": {},
   "gtkThemingEnabled": false,
   "qtThemingEnabled": false,
   "syncModeWithPortal": true,
@@ -798,5 +793,5 @@
   "barInsetPaddingShared": 4,
   "barInsetPaddingSyncAll": false,
   "frameBarInsetPadding": -1,
-  "configVersion": 12
+  "configVersion": 13
 }
