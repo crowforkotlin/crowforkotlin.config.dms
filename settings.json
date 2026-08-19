@@ -174,10 +174,10 @@
   "showWorkspacePadding": false,
   "workspaceScrolling": false,
   "showWorkspaceApps": false,
-  "workspaceDragReorder": true,
-  "maxWorkspaceIcons": 3,
+  "workspaceDragReorder": false,
+  "maxWorkspaceIcons": 2,
   "workspaceAppIconSizeOffset": 0,
-  "groupWorkspaceApps": true,
+  "groupWorkspaceApps": false,
   "groupActiveWorkspaceApps": false,
   "workspaceFollowFocus": false,
   "showOccupiedWorkspacesOnly": false,
@@ -505,7 +505,7 @@
   "notificationTimeoutNormal": 5000,
   "notificationTimeoutCritical": 0,
   "notificationCompactMode": false,
-  "notificationShowTimeoutBar": false,
+  "notificationShowTimeoutBar": true,
   "notificationDedupeEnabled": true,
   "notificationPopupPosition": 0,
   "notificationAnimationSpeed": 1,
@@ -654,11 +654,11 @@
       "gothCornerRadiusValue": 12,
       "borderEnabled": false,
       "borderColor": "surfaceText",
-      "borderOpacity": 1,
-      "borderThickness": 3,
-      "widgetOutlineEnabled": false,
-      "widgetOutlineColor": "primary",
-      "widgetOutlineOpacity": 1,
+      "borderOpacity": 0.03,
+      "borderThickness": 1,
+      "widgetOutlineEnabled": true,
+      "widgetOutlineColor": "surfaceText",
+      "widgetOutlineOpacity": 0.1,
       "widgetOutlineThickness": 1,
       "fontScale": 1,
       "iconScale": 1,
@@ -680,7 +680,7 @@
       "shadowColorMode": "default",
       "shadowCustomColor": "#000000",
       "clickThrough": false,
-      "hoverPopouts": false,
+      "hoverPopouts": true,
       "hoverPopoutDelay": 150
     }
   ],
@@ -753,7 +753,78 @@
   "systemMonitorVariants": [],
   "desktopWidgetPositions": {},
   "desktopWidgetGridSettings": {},
-  "desktopWidgetInstances": [],
+  "desktopWidgetInstances": [
+    {
+      "id": "dw_1787104869660_atslegzii",
+      "widgetType": "desktopClock",
+      "name": "桌面时钟",
+      "enabled": false,
+      "config": {
+        "style": "digital",
+        "transparency": 0.8,
+        "colorMode": "primary",
+        "customColor": "#ffffff",
+        "showDate": true,
+        "showAnalogNumbers": false,
+        "showAnalogSeconds": true,
+        "displayPreferences": [
+          "all"
+        ],
+        "showDigitalSeconds": true,
+        "showOnOverviewOnly": false,
+        "showOnOverview": false
+      },
+      "positions": {
+        "HDMI-A-1": {
+          "width": 200,
+          "height": 200,
+          "x": 860,
+          "y": 440
+        }
+      }
+    },
+    {
+      "id": "dw_1787104921027_1qhb40sh6",
+      "widgetType": "systemMonitor",
+      "name": "系统监视器",
+      "enabled": false,
+      "config": {
+        "showHeader": true,
+        "transparency": 0.7,
+        "colorMode": "primary",
+        "customColor": "#ffffff",
+        "showCpu": true,
+        "showCpuGraph": true,
+        "showCpuTemp": true,
+        "showGpuTemp": true,
+        "gpuPciId": "",
+        "showMemory": true,
+        "showMemoryGraph": true,
+        "showNetwork": true,
+        "showNetworkGraph": true,
+        "showDisk": true,
+        "showTopProcesses": true,
+        "topProcessCount": 5,
+        "topProcessSortBy": "cpu",
+        "layoutMode": "list",
+        "graphInterval": 60,
+        "displayPreferences": [
+          {
+            "name": "HDMI-A-1",
+            "model": "27G4"
+          }
+        ]
+      },
+      "positions": {
+        "HDMI-A-1": {
+          "width": 784.99609375,
+          "height": 834.80078125,
+          "x": 1125.19921875,
+          "y": 58.708984375
+        }
+      }
+    }
+  ],
   "desktopWidgetGroups": [],
   "builtInPluginSettings": {
     "dms_settings_search": {
@@ -775,14 +846,14 @@
   "launcherPluginVisibility": {},
   "launcherPluginOrder": [],
   "frameEnabled": false,
-  "frameThickness": 16,
-  "frameRounding": 23,
+  "frameThickness": 8,
+  "frameRounding": 20,
   "frameColor": "",
   "frameOpacity": 1,
   "frameScreenPreferences": [
     "all"
   ],
-  "frameBarSize": 40,
+  "frameBarSize": 28,
   "frameShowOnOverview": false,
   "frameBlurEnabled": true,
   "frameCloseGaps": true,
