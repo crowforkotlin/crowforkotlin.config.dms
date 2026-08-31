@@ -167,6 +167,11 @@
       "id": "colorPicker",
       "enabled": true,
       "width": 50
+    },
+    {
+      "id": "builtin_tailscale",
+      "enabled": true,
+      "width": 50
     }
   ],
   "showWorkspaceIndex": false,
