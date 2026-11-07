@@ -18,15 +18,15 @@
   },
   "screenCapture": {
     "enabled": true,
-    "langIndex": 0,
-    "hideCursor": true
+    "langIndex": 1,
+    "hideCursor": false
   },
   "screenRecorderX": {
     "enabled": true,
     "hideCursor": true,
     "recordAudio": true,
-    "codecIndex": 0,
-    "framerateIndex": 5,
+    "codecIndex": 1,
+    "framerateIndex": 6,
     "qualityIndex": 2,
     "langIndex": 1,
     "savePathIndex": 3,
@@ -41,5 +41,12 @@
   },
   "converter": {
     "enabled": false
+  },
+  "emojiPicker": {
+    "enabled": true
+  },
+  "emojiLauncher": {
+    "enabled": true,
+    "recentEmojis": "😭"
   }
 }

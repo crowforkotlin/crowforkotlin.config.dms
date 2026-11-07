@@ -7,3 +7,6 @@
 [submodule "plugins/calculator"]
 	path = plugins/calculator
 	url = https://github.com/rochacbruno/DankCalculator
+[submodule "plugins/emojiLauncher"]
+	path = plugins/emojiLauncher
+	url = https://github.com/devnullvoid/dms-emoji-launcher

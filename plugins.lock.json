@@ -1,0 +1,21 @@
+{
+  "lockfileVersion": 1,
+  "plugins": {
+    "calculator": {
+      "repo": "https://github.com/rochacbruno/DankCalculator",
+      "commit": "1db5865419a40a33171a475855a59e0b8bf7187f"
+    },
+    "emojiLauncher": {
+      "repo": "https://github.com/devnullvoid/dms-emoji-launcher",
+      "commit": "8ff394e3ddfcb2fd755ed2e7b4c6f01f3e26e596"
+    },
+    "screenCapture": {
+      "repo": "https://github.com/crowforkotlin/dms-screen-capture",
+      "commit": "0d68fee1d23bd1fe0e5a0ffabda7d7fd1d07f0e8"
+    },
+    "screenRecorderX": {
+      "repo": "https://github.com/crowforkotlin/dms-screen-recorder",
+      "commit": "54523294cee6a7b3507e69f875db84e7a76066ec"
+    }
+  }
+}
